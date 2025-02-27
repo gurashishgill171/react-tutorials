@@ -8,6 +8,7 @@ import USEMEMO_EG1 from "./tutorials/useMemoTut/example1";
 import USEREF_EG1 from "./tutorials/useRefTut/example1";
 import USEREF_EG2 from "./tutorials/useRefTut/example2";
 import CustomHook from "./tutorials/customHooks/CustomHook";
+import LazyLoading from "./tutorials/lazyLoading/index";
 
 function App() {
 	return (
@@ -18,7 +19,8 @@ function App() {
 			{/* <USECALLBACK_EG1 /> */}
 			{/* <USECONTEXT_EG1 /> */}
 			{/* <REDUX_EG1 /> */}
-			<CustomHook />
+			{/* <CustomHook /> */}
+			<LazyLoading />
 		</div>
 	);
 }
