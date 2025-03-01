@@ -9,6 +9,7 @@ import USEREF_EG1 from "./tutorials/useRefTut/example1";
 import USEREF_EG2 from "./tutorials/useRefTut/example2";
 import CustomHook from "./tutorials/customHooks/CustomHook";
 import LazyLoading from "./tutorials/lazyLoading/index";
+import ImageCarousel from "./machineCoding/Carousel";
 
 function App() {
 	return (
@@ -20,7 +21,8 @@ function App() {
 			{/* <USECONTEXT_EG1 /> */}
 			{/* <REDUX_EG1 /> */}
 			{/* <CustomHook /> */}
-			<LazyLoading />
+			{/* <LazyLoading /> */}
+			<ImageCarousel />
 		</div>
 	);
 }
