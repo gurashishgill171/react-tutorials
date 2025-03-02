@@ -10,6 +10,7 @@ import USEREF_EG2 from "./tutorials/useRefTut/example2";
 import CustomHook from "./tutorials/customHooks/CustomHook";
 import LazyLoading from "./tutorials/lazyLoading/index";
 import ImageCarousel from "./machineCoding/Carousel";
+import AutoCompleteTut from "./machineCoding/Autocomplete";
 
 function App() {
 	return (
@@ -22,7 +23,8 @@ function App() {
 			{/* <REDUX_EG1 /> */}
 			{/* <CustomHook /> */}
 			{/* <LazyLoading /> */}
-			<ImageCarousel />
+			{/* <ImageCarousel /> */}
+			<AutoCompleteTut />
 		</div>
 	);
 }
