@@ -11,6 +11,7 @@ import CustomHook from "./tutorials/customHooks/CustomHook";
 import LazyLoading from "./tutorials/lazyLoading/index";
 import ImageCarousel from "./machineCoding/Carousel";
 import AutoCompleteTut from "./machineCoding/Autocomplete";
+import PaginationTut from "./machineCoding/Pagination";
 
 function App() {
 	return (
@@ -24,7 +25,8 @@ function App() {
 			{/* <CustomHook /> */}
 			{/* <LazyLoading /> */}
 			{/* <ImageCarousel /> */}
-			<AutoCompleteTut />
+			{/* <AutoCompleteTut /> */}
+			<PaginationTut />
 		</div>
 	);
 }
