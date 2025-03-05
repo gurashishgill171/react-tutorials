@@ -12,6 +12,7 @@ import LazyLoading from "./tutorials/lazyLoading/index";
 import ImageCarousel from "./machineCoding/Carousel";
 import AutoCompleteTut from "./machineCoding/Autocomplete";
 import PaginationTut from "./machineCoding/Pagination";
+import ToDoList from "./machineCoding/ToDoList";
 
 function App() {
 	return (
@@ -26,7 +27,8 @@ function App() {
 			{/* <LazyLoading /> */}
 			{/* <ImageCarousel /> */}
 			{/* <AutoCompleteTut /> */}
-			<PaginationTut />
+			{/* <PaginationTut /> */}
+			<ToDoList />
 		</div>
 	);
 }
